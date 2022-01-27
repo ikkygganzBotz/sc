@@ -54,11 +54,11 @@ const pendaftar = JSON.parse(fs.readFileSync('./data/user.json'))
 const ownerNumber = setting.OwnerNumber
 const ownerName = setting.OwnerName
 const botName = setting.BotName
-const creator = ["FajarrXd"]
+const creator = ["hannz"]
 
 //━━━━━━━━━━━━━━━[ GRUP ]━━━━━━━━━━━━━━━\\
 
-const linkGrup = ["https://chat.whatsapp.com/FCicT9gcYV14FOK1rwr8Ss"]
+const linkGrup = ["https://chat.whatsapp.com/LjlhIfa42pA1X27NNeS7UD"]
 
 //━━━━━━━━━━━━━━━[ SETTING PUBLIC ]━━━━━━━━━━━━━━━\\
 
@@ -401,7 +401,7 @@ switch (command) {
 
 case 'menu':
 case 'help':
-menunya = `*${ucapanWaktu} @${sender.split('@')[0]}*
+menunya = `*❒──────「 Menu Bot 」──────❒*
 
 ╭─❒「 *Info Bot* 」❒
 │• *Nama Bot* : *${botName}*
@@ -470,14 +470,14 @@ menunya = `*${ucapanWaktu} @${sender.split('@')[0]}*
 
 mnu =`*『 Patrick 』*`
 but = [
-{ buttonId: `${prefix}owner`, buttonText: { displayText: 'ᴏᴡɴᴇʀ️' }, type: 1 },
+{ buttonId: `${prefix}owner`, buttonText: { displayText: 'ᴏᴡɴᴇʀ️️' }, type: 1 },
 { buttonId: `${prefix}sk`, buttonText: { displayText: 'ʀᴜʟᴇs'}, type: 1 }
 ]
 sendButLocation(from, menunya, mnu, gambar, but)
 break
 case 'sk':
-sk1 =`👋 Hai @${sender.split('@')[0]}
-Rules - Ketentuan Patrick Bot
+sk1 =`👋 Hai User Patrick Bot 
+Rules -
 ❎ Dilarang spam!
 ❎ Dilarang menelpon bot!
 ❎ Bot tidak akan menyimpan
@@ -518,7 +518,7 @@ case 'foliokiri':
 case 'foliokanan':
 text = args.join(" ")
 hsil = await getBuffer(`https://hardianto.xyz/api/${command}?text=${text}&apikey=${HardiKey}`)
-nana.sendMessage(from, hsil, image, {quoted: mek, caption: 'Nih Hasilnya' })
+nana.sendMessage(from, hsil, image, {quoted: mek, caption: 'Nih' })
 break
 case 'artinama':
 reply(mess.wait)
@@ -542,7 +542,7 @@ but = [
 { buttonId: `${prefix}truth`, buttonText: { displayText: '️</NEXT' }, type: 1 }
 ]
 td1 =`${anu.truth}`
-td2 =`*『 Patrick 』*`
+td2 =`*Nih*`
 sendButLocation(from, td1, td2, toddimg, but)
 break
 case 'dare':
@@ -772,11 +772,11 @@ if (args.length ==0)return reply('Link nya mana?')
 link = args.join(" ")
 reply(mess.wait)
 ini = await fetchJson(`https://api.zeks.me/api/ytplaymp3?apikey=${ZeksApi}&q=${link}`)
-ply1 =`_*TIKTOK DOWNLOAD BY Patrick*_`
+ply1 =`*『 Patrick 』*`
 ply2 =`Silahkan Pilih Media Di Bawah ini`
 but = [
-{ buttonId: `${prefix}tiktokmusic ${args.join(" ")}`, buttonText: { displayText: '️ᴀᴜᴅɪᴏ' }, type: 1 },
-{ buttonId: `${prefix}tiktoknowm ${args.join(" ")}`, buttonText: { displayText: 'ᴠɪᴅᴇᴏ' }, type: 1 }
+{ buttonId: `${prefix}tiktokmusic ${args.join(" ")}`, buttonText: { displayText: '️MUSIK' }, type: 1 },
+{ buttonId: `${prefix}tiktoknowm ${args.join(" ")}`, buttonText: { displayText: 'NOWM' }, type: 1 }
 ]
 sendButLocation(from, ply1, ply2, ttimg, but)
 break
