@@ -437,6 +437,7 @@ menunya = `*❒──────「 Menu Bot 」──────❒*
 │• ${prefix}asupanbocil
 │• ${prefix}asupanrika
 │• ${prefix}asupanghea
+│• ${prefix}asupanbokep[premium]
 ╰─────❒
 
 ╭─❒「 *Download Menu* 」❒
@@ -468,19 +469,19 @@ menunya = `*❒──────「 Menu Bot 」──────❒*
 │• ${prefix}cosplay
 ╰─────❒`
 
-mnu =`*『 Patrick 』*`
+mnu =`*『 𝑀𝑒𝑙𝑙 💫 』*`
 but = [
-{ buttonId: `${prefix}owner`, buttonText: { displayText: 'ᴏᴡɴᴇʀ️️' }, type: 1 },
-{ buttonId: `${prefix}sk`, buttonText: { displayText: 'ʀᴜʟᴇs'}, type: 1 }
+{ buttonId: `${prefix}owner`, buttonText: { displayText: 'ツˣᴿᶻズガ2' }, type: 1 },
+{ buttonId: `${prefix}sk`, buttonText: { displayText: 'ツˣᴿᶻズガx'}, type: 1 }
 ]
 sendButLocation(from, menunya, mnu, gambar, but)
 break
 case 'sk':
-sk1 =`👋 Hai User Patrick Bot 
+sk1 =`👋 Hai User ツˣᴿᶻズガx Bot 
 Rules -
-❎ Dilarang spam!
+😌 Dilarang spam!
 ❎ Dilarang menelpon bot!
-❎ Bot tidak akan menyimpan
+🥱 Bot tidak akan menyimpan
       data dari kalian!
 
 Owner berhak memblokir nomormu jika melanggar ketentuan bot!
